@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* Navigation section */
+.head-text{
+    text-shadow: 3px 3px 0 rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    font-weight: bold;
+}
+.nav-section{
+    background-image: url("1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100vw;
+    padding: 7% 10%;
+}
+.hambuger-icon{
+    color: rgb(144, 18, 18);
+    border-radius: 20px;
+}
+.links{
+   font-weight: bold;
+}
+/* End of Navigation Section */
+/* strat area */
+.phone{
+    width: 55%;
+}
+.tag-line{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-shadow: 3px 3px 0 rgb(0, 0, 0);
+    opacity: 0.9;
+}
+/* end odf start area */
+/* start of First Section */
+.first-section{
+    background-color:  #a9927d;
+    width: 100vw;
+    padding: 7% 10%;
+}
+.Carousel-image{
+    width: 50vw;
+    border-radius: 50px;
+}
+.title{
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+.carousel-pad{
+    padding: 3% 10%;
+}
+/* End of First Section */
+/* start of Service Section */
+.Service-section{
+    background-color:  #ffffff;
+    width: 100vw;
+    padding: 7% 10%;
+}
+.service-icon1{
+  color: blue;
+}
+.service-icon2{
+  color: dodgerblue;
+}
+.service-icon3{
+  color: goldenrod;
+}
+.service-icon4{
+  color: green;
+}
+/* End of Service Section */
+/* The About us Section */
+.about-us-section{
+    background-color:  #a9927d;
+    width: 100vw;
+    padding: 7% 10%;
+}
+/* End About us Section */
+/* The Contact us Section */
+.contact-us-section{
+    background-color:  #000000;
+    width: 100vw;
+    padding: 7% 10%;
+}
+.contact-icon1{
+    color: deeppink;
+}
+.contact-icon2{
+    color: blue;
+}
+.contact-icon3{
+    color: green;
+}
+.contact-icon4{
+    color: cyan;
+}
+.contact-icon5{
+    color: transparent;
+    background: linear-gradient(to right, #008080 0%, #FF0000 50%, #000000 100%);
+   -webkit-background-clip: text;
+}
+.social-link-list{
+    margin: 20px 25%;
+}
+/* End Contact us Section */
+/* media Queries section */
+@media (max-width: 1000px){
+    .phone{
+        width: 100%;
+    }
+    .Contact-title{
+        visibility: hidden;
+    }
+}
+@media (max-width: 720px){
+    
+    .hambuger-icon{
+        color: rgb(255, 255, 255);
+        border-radius: 20px;
+    }
+}
+/* End of media Queries section */
